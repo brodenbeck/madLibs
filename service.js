@@ -13,7 +13,7 @@ app.factory('madLibService', function() {
 	}
 
 	return {
-		saveData:saveData,
-		getData:getData
+		saveData: saveData,
+		getData: getData
 	}
 });
