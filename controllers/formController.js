@@ -5,4 +5,4 @@ app.controller('formController', function($scope, madLibService, $location) {
 		madLibService.saveData(inputs);
 		$location.path('output');
 	}
-})
+});
